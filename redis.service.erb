@@ -19,5 +19,8 @@ RuntimeDirectory=redis
 RuntimeDirectoryMode=755
 LimitNOFILE=10032
 
+Restart=on-failure
+RestartSec=5s
+
 [Install]
 WantedBy=multi-user.target
