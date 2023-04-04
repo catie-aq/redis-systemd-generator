@@ -28,4 +28,4 @@ File.write("#{folder_name}/redis-#{@name}.service",   service_gen)
 File.write("#{folder_name}/redis-#{@name}.conf", conf_gen)
 
 p "Connections will be like this after install (for data.peac2h.io host):" 
-p "redis-cli -h data.peac2h.io -p #{@port} -a '#{@pass}'
+p "redis-cli -h data.peac2h.io -p #{@port} -a '#{@pass}'"
