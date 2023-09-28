@@ -1,5 +1,6 @@
 # Redis server generation 
 
+Systemd management for Redis. 
 
 ## Generate the service 
 
